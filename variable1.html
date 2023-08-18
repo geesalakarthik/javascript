@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<h1 >java script introduction</h1>
+<script type="text/javascript">
+	var a =10;
+	var b =20;
+	var c =30;
+	//alert(a);
+	console.log(b);
+	document.write(c);
+</script>
+<script type="text/javascript">
+	document.write("java script <br>");
+	document.write("the vlaue is ",a)
+</script>
+<!--print the name-->
+<br>
+<script type="text/javascript">
+	var name ='karthik';
+	document.write(name.length+'<br>');
+	name +=' gk';
+	document.write(name.length);
+</script>
+<br><br>
+<!----------text-------------->
+<script type="text/javascript">
+	var n1 ='kasi';
+	var n2 =' rajesh,';
+	var n3 ='gani';
+	document.write(n1+n2+n3);
+</script>
+<br><br>
+<script type="text/javascript">
+	var a="hhg";
+	document.write(typeof(a));
+</script>
+<br>
+<br>
+//array;
+<script type="text/javascript">
+	var arr =['k1,k2,k3'];
+	document.write(typeof(arr));
+	document.write(arr);
+</script>
+<br><br>
+<script type="text/javascript">
+	var arr1 = ['karthik','k2','k3','k4'];
+	// console.log(arr);
+	document.write(arr1[1]," ",arr1[3]);	
+</script>
+<br>
+<br>
+<!---------------string------------->
+<script type="text/javascript">
+	var inf={
+		'name':'kk',
+		'rollno':'037',
+		'collage':'aditya',
+		'branch':'ece'
+	}
+	console.log(inf.name);
+	document.write(inf.name);
+	document.write(inf.rollno);
+</script>
+<br>
+<script type="text/javascript">
+	var inf1=[{
+		'name':'rani',
+		'rollno':'037',
+		'collage':'aditya',
+		'branch':'ece',
+		'email':'jgcekqgrye@gmail.com'
+	},
+	{
+		'name':'raju',
+		'rollno':'07',
+		'collage':'aditya',
+		'branch':'eee',
+		'email':'jgcekye@gmail.com'
+
+	},
+	{
+		'name':'karthik',
+		'rollno':'03',
+		'collage':'aditya',
+		'branch':'cme',
+		'email':'ekqgrye@gmail.com'
+
+	}]
+	//console.log(inf)
+	//console.log(inf[0].name);
+	//console.log(inf[1].name);
+for ( var i = 0; i < inf1.length; i++) {
+	console.log(inf1[i].name,inf1[i].rollno,inf1[i].collage,inf1[i].branch,inf1[i].email)
+ document.write(inf1[i].name,inf1[i].rollno,inf1[i].collage,inf1[i].branch,inf1[i].email)
+
+}
+</script>
+<br><br>
+<script type="text/javascript">
+	for (var i=0;i<inf1.length;i++){
+      for (var key in inf1[i]){
+        document.write(inf1[i][key],"&nbsp")
+}
+document.write("<br>")
+}
+</script>
+</body>
+
